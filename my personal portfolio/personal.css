@@ -1,0 +1,88 @@
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    margin: 5px;
+    line-height: 2;
+}
+
+header {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(66, 178, 248);
+    padding: 10px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(16, 103, 189);
+    margin: 10px;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease; /*ya button k transition ko slow krny k liye h*/
+}
+
+nav a:hover {
+    background-color: #007BFF;
+    color: white;
+}
+
+main {
+    padding: 20px
+}
+
+main h2 {
+    color: #007BFF;
+}
+
+main p {
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+.right-image {
+    float: right;
+    margin: 0 0 20px 20px;
+    border: 2px solid#007BFF;
+    border-radius: 5px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: lightskyblue;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #007BFF;
+    color: white;
+    margin-top: 20px;
+}
